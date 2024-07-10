@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap");
+* {
+  margin: 0;
+  font-family: "Josefin Sans", sans-serif;
+}
+body {
+  background-color: var(--background-main);
+}
+:root {
+  --primary-color: #258e00;
+  --secondary-color: #cbf9bc;
+  --background-main: #ebfde5;
+  --text-color: #666363;
+}
+.header1 {
+  background-color: var(--secondary-color);
+  display: flex;
+  padding: 1rem;
+}
+.header2 {
+  display: flex;
+  gap: 5em;
+  align-items: center;
+}
+.header_inf {
+  text-decoration: none;
+  font-size: xx-large;
+  color: var(--text-color);
+}
+.login {
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+  border: 15px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  box-shadow: rgba(17, 26, 20, 0.445) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+.logo {
+  margin-right: 20em;
+  margin-left: 5em;
+  margin-top: 0;
+}
+
+.section {
+  align-items: center;
+  background-color: var(--background-main);
+  display: flex;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+.textos {
+  font-size: 45px;
+  align-items: center;
+  margin-left: 9rem;
+}
+.imagem_fundo {
+  height: 550px;
+  padding: 5em 5em 5em 0;
+}
+.login1 {
+  text-decoration: none;
+  font-size: xx-large;
+  color: white;
+  border: 15px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 0 2em;
+  box-shadow: rgba(17, 26, 20, 0.445) 0px 8px 24px,
+    rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+
+.button {
+  margin-top: 2rem;
+}
+.section-three {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+  background-color: white;
+  -webkit-box-shadow: inset 0px 50px 90px -58px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: inset 0px 50px 90px -58px rgba(0, 0, 0, 0.75);
+  box-shadow: inset 0px 50px 90px -58px rgba(0, 0, 0, 0.75);
+}
+.section-three-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.section-three-card {
+  border: 4px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 360px;
+  height: 510px;
+  align-items: center;
+}
+.img1 {
+  width: 230px;
+}
+.img2 {
+  width: 230px;
+}
+.img3 {
+  width: 230px;
+}
+.texto_ava {
+  font-size: 60px;
+  text-align: center;
+  padding-top: 3rem;
+  color: var(--text-color);
+}
+.titulo_desc {
+  text-align: center;
+  font-size: 24px;
+  color: var(--primary-color);
+}
+.texto_desc {
+  text-align: center;
+  padding-bottom:1.5rem;
+  color: var(--text-color);
+}
+.login2 {
+  text-decoration: none;
+  font-size: x-large;
+  color: white;
+  border: 10px solid var(--primary-color);
+  background-color: var(--primary-color);
+  border-radius: 15px;
+  padding: 0 2em;
+}
