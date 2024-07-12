@@ -12,17 +12,17 @@ body {
   --background-main: #ebfde5;
   --text-color: #666363;
 }
-.header1 {
+.header_pri {
   background-color: var(--secondary-color);
   display: flex;
   padding: 1rem;
 }
-.header2 {
+.header_sec {
   display: flex;
   gap: 5em;
   align-items: center;
 }
-.header_inf {
+.header_tri {
   text-decoration: none;
   font-size: xx-large;
   color: var(--text-color);
@@ -37,19 +37,19 @@ body {
   box-shadow: rgba(17, 26, 20, 0.445) 0px 8px 24px,
     rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
 }
-.logo {
+.logo_pri {
   margin-right: 20em;
   margin-left: 5em;
   margin-top: 0;
 }
 
-.section {
+.section_pri {
   align-items: center;
   background-color: var(--background-main);
   display: flex;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 }
-.textos {
+.text {
   font-size: 45px;
   align-items: center;
   margin-left: 9rem;
@@ -58,7 +58,7 @@ body {
   height: 550px;
   padding: 5em 5em 5em 0;
 }
-.login1 {
+.login_sec {
   text-decoration: none;
   font-size: xx-large;
   color: white;
@@ -73,7 +73,7 @@ body {
 .button {
   margin-top: 2rem;
 }
-.section-three {
+.section_three {
   display: flex;
   flex-direction: column;
   gap: 100px;
@@ -82,14 +82,14 @@ body {
   -moz-box-shadow: inset 0px 50px 90px -58px rgba(0, 0, 0, 0.75);
   box-shadow: inset 0px 50px 90px -58px rgba(0, 0, 0, 0.75);
 }
-.section-three-container {
+.section_container {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 100px;
 }
 
-.section-three-card {
+.section_card {
   border: 4px solid var(--secondary-color);
   border-radius: 10px;
   padding: 10px;
@@ -109,7 +109,7 @@ body {
 .img3 {
   width: 230px;
 }
-.texto_ava {
+.text_ava {
   font-size: 60px;
   text-align: center;
   padding-top: 3rem;
@@ -120,12 +120,12 @@ body {
   font-size: 24px;
   color: var(--primary-color);
 }
-.texto_desc {
+.text_desc {
   text-align: center;
   padding-bottom:1.5rem;
   color: var(--text-color);
 }
-.login2 {
+.login_tri {
   text-decoration: none;
   font-size: x-large;
   color: white;
